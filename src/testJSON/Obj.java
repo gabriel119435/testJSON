@@ -1,27 +1,27 @@
 package testJSON;
 
 public class Obj {
-	private String nome;
-	private int idade;
+	private String name;
+	private int age;
 
-	public String getNome() {
-		return nome;
+	public String getName() {
+		return name;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public int getIdade() {
-		return idade;
+	public int getAge() {
+		return age;
 	}
 
-	public void setIdade(int idade) {
-		this.idade = idade;
+	public void setAge(int age) {
+		this.age = age;
 	}
 
 	@Override
 	public String toString() {
-		return this.nome + "-" + this.idade;
+		return this.name + "-" + this.age;
 	}
 }
